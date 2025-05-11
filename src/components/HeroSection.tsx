@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowDown, GitHub, Linkedin } from "lucide-react";
+import { ArrowDown, Github, Linkedin } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -35,7 +35,7 @@ const HeroSection = () => {
               <a href="https://github.com/" 
                  className="p-2 bg-white rounded-full shadow-sm border border-gray-200 hover:shadow-md transition-all duration-300"
                  aria-label="GitHub">
-                <GitHub className="h-5 w-5 text-navy" />
+                <Github className="h-5 w-5 text-navy" />
               </a>
               <a href="https://www.linkedin.com/in/naveen-joshi-52bb01287/"
                  className="p-2 bg-white rounded-full shadow-sm border border-gray-200 hover:shadow-md transition-all duration-300"
@@ -61,9 +61,11 @@ const HeroSection = () => {
               
               {/* Profile container */}
               <div className="w-64 h-64 md:w-80 md:h-80 bg-light-gray rounded-2xl overflow-hidden relative z-10 border border-white/50 shadow-xl">
-                <div className="absolute inset-0 flex items-center justify-center text-navy/30 text-xl font-medium">
-                  Naveen Joshi
-                </div>
+                <img 
+                  src="/lovable-uploads/44e08ab9-d46a-48dc-ac0b-d8fb81626d02.png"
+                  alt="Naveen Joshi"
+                  className="w-full h-full object-cover"
+                />
               </div>
               
               {/* Decorative elements */}
